@@ -1,0 +1,40 @@
+.about-container {
+    
+    margin: 0 auto; /* Center the content */
+    padding: 2rem; /* Padding for spacing */
+    font-family: Arial, sans-serif; /* Font family */
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.about-description {
+    margin-bottom: 1.5rem; /* Space below description */
+    line-height: 1.6; /* Improve readability */
+}
+
+.team {
+    display: flex; /* Flexbox for team layout */
+    justify-content: space-between; /* Space between members */
+    margin: 2rem 0; /* Margin above and below */
+}
+
+.team-member {
+    text-align: center; /* Center text for team members */
+    flex: 1; /* Flex item */
+    margin: 0 1rem; /* Space between team members */
+}
+
+.team-member img {
+    width: 100%; /* Responsive image */
+    max-width: 150px; /* Max width for images */
+    border-radius: 50%; /* Circle image */
+    margin-bottom: 0.5rem; /* Space below image */
+}
+
+h2, h3 {
+    color: #333; /* Dark text color for headings */
+}
+
+ul {
+    list-style-type: disc; /* Bullet points for lists */
+    padding-left: 20px; /* Indent lists */
+}

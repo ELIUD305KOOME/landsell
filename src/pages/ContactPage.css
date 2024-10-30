@@ -1,0 +1,76 @@
+.contact-container {
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center the content */
+    padding: 2rem; /* Padding for spacing */
+    font-family: Arial, sans-serif; /* Font family */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+h2 {
+    color: #333; /* Dark text color for headings */
+    text-align: center; /* Center the heading */
+}
+
+.contact-form {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Vertical layout */
+    gap: 1rem; /* Space between form elements */
+    margin-bottom: 2rem; /* Space below form */
+}
+
+.contact-form label {
+    display: flex; /* Flex layout for labels */
+    flex-direction: column; /* Stack label and input */
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.5rem; /* Padding for input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.contact-form button {
+    padding: 0.7rem; /* Padding for button */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+.success-message {
+    color: green; /* Green color for success message */
+    text-align: center; /* Center the message */
+    margin-top: 1rem; /* Space above message */
+}
+
+.contact-info {
+    margin-top: 2rem; /* Space above contact info */
+}
+
+.social-links {
+    display: flex; /* Flex layout for social links */
+    gap: 1rem; /* Space between links */
+    justify-content: center; /* Center links */
+}
+
+.social-links a {
+    text-decoration: none; /* No underline */
+    color: #007bff; /* Link color */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.cont{
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
